@@ -44,6 +44,8 @@ Please inspect PROJECT_CONTEXT.md in the root directory to get full context on t
 | `recode_mind_20_urls.txt` | Clean URL list of 20 reels harvested from `@recode_mind_`. |
 | `benchmark_results.json` | First pass benchmark data of downloaded reels. |
 | `final_20_reels_benchmark.json` | Comprehensive final benchmark report for 20 reels: 100% success rate, timing, and storage metrics. |
+| `motion_comic_pipeline_architecture-v2.md` | **System Architecture & Pipeline Spec (v2.0)**: Complete blueprint for the automated 0% I2V "Engineered Motion Comic" production engine (narrative bridge, state-locked scenes, 2.5D camera choreography, Foley design). |
+| `skill/channel_to_persian_brand_skill.md` | **Channel to Persian Brand Skill**: Strategic workflow for reverse-engineering foreign short-form channels and localizing content for Persian brand identity and retention funnels. |
 | `requirements.txt` | Python library requirements (`yt-dlp`, `playwright`, `openai-whisper`, `torch`, `torchaudio`). |
 | `.gitignore` | Excludes downloaded media files (`.mp4`, `.mp3`), `__pycache__`, virtual environments, and external sub-repos. |
 | `Agent-Reach/` | External cloned submodule/tool repository for web & agent automation. |
