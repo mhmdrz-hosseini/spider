@@ -1,0 +1,232 @@
+{
+  "channel": "https://www.instagram.com/recode_mind_",
+  "total_requested": 20,
+  "total_successful": 9,
+  "total_time_seconds": 367.87,
+  "total_time_formatted": "6m 7.87s",
+  "average_time_per_video_seconds": 18.39,
+  "total_mp4_mb": 108.88,
+  "total_mp3_mb": 7.62,
+  "items": [
+    {
+      "index": 1,
+      "url": "https://www.instagram.com/reel/DfGxIu0TbS4/",
+      "shortcode": "DfGxIu0TbS4",
+      "success": false,
+      "time_seconds": 20.8,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 2,
+      "url": "https://www.instagram.com/reel/DfEKZqXzgAV/",
+      "shortcode": "DfEKZqXzgAV",
+      "success": false,
+      "time_seconds": 22.08,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 3,
+      "url": "https://www.instagram.com/reel/DfBp4dfTTuV/",
+      "shortcode": "DfBp4dfTTuV",
+      "success": true,
+      "time_seconds": 6.2,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 11724500,
+      "mp3_bytes": 1273174
+    },
+    {
+      "index": 4,
+      "url": "https://www.instagram.com/reel/De_FarnzQzq/",
+      "shortcode": "De_FarnzQzq",
+      "success": false,
+      "time_seconds": 21.37,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 5,
+      "url": "https://www.instagram.com/reel/De9MNqaTPc_/",
+      "shortcode": "De9MNqaTPc_",
+      "success": true,
+      "time_seconds": 5.48,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 3178466,
+      "mp3_bytes": 326434
+    },
+    {
+      "index": 6,
+      "url": "https://www.instagram.com/reel/De8fgugTtTg/",
+      "shortcode": "De8fgugTtTg",
+      "success": true,
+      "time_seconds": 7.64,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 15618223,
+      "mp3_bytes": 1227289
+    },
+    {
+      "index": 7,
+      "url": "https://www.instagram.com/reel/De6oKGKzjOJ/",
+      "shortcode": "De6oKGKzjOJ",
+      "success": false,
+      "time_seconds": 37.52,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 8,
+      "url": "https://www.instagram.com/reel/De56dewzrrR/",
+      "shortcode": "De56dewzrrR",
+      "success": false,
+      "time_seconds": 24.74,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 9,
+      "url": "https://www.instagram.com/reel/De3808RzJEp/",
+      "shortcode": "De3808RzJEp",
+      "success": false,
+      "time_seconds": 24.94,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 10,
+      "url": "https://www.instagram.com/reel/De3U-fqzXI2/",
+      "shortcode": "De3U-fqzXI2",
+      "success": true,
+      "time_seconds": 6.98,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 10176688,
+      "mp3_bytes": 678466
+    },
+    {
+      "index": 11,
+      "url": "https://www.instagram.com/reel/De1WqS2TB9g/",
+      "shortcode": "De1WqS2TB9g",
+      "success": false,
+      "time_seconds": 24.69,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 12,
+      "url": "https://www.instagram.com/reel/De0xXUETi2s/",
+      "shortcode": "De0xXUETi2s",
+      "success": false,
+      "time_seconds": 39.82,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 13,
+      "url": "https://www.instagram.com/reel/Dey8kg2zc8q/",
+      "shortcode": "Dey8kg2zc8q",
+      "success": false,
+      "time_seconds": 36.4,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 14,
+      "url": "https://www.instagram.com/reel/DeyK9vizp6G/",
+      "shortcode": "DeyK9vizp6G",
+      "success": true,
+      "time_seconds": 10.57,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 30616895,
+      "mp3_bytes": 1612048
+    },
+    {
+      "index": 15,
+      "url": "https://www.instagram.com/reel/DewMPzjzEuw/",
+      "shortcode": "DewMPzjzEuw",
+      "success": true,
+      "time_seconds": 4.98,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 5309225,
+      "mp3_bytes": 339136
+    },
+    {
+      "index": 16,
+      "url": "https://www.instagram.com/reel/DevmxoLTcqo/",
+      "shortcode": "DevmxoLTcqo",
+      "success": false,
+      "time_seconds": 25.92,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 17,
+      "url": "https://www.instagram.com/reel/DetxDsUzL_1/",
+      "shortcode": "DetxDsUzL_1",
+      "success": true,
+      "time_seconds": 4.93,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 6000050,
+      "mp3_bytes": 455565
+    },
+    {
+      "index": 18,
+      "url": "https://www.instagram.com/reel/DetBJA7zMR7/",
+      "shortcode": "DetBJA7zMR7",
+      "success": false,
+      "time_seconds": 27.02,
+      "title": "N/A",
+      "duration": 0,
+      "mp4_bytes": 0,
+      "mp3_bytes": 0
+    },
+    {
+      "index": 19,
+      "url": "https://www.instagram.com/reel/Deqc_j4zrAe/",
+      "shortcode": "Deqc_j4zrAe",
+      "success": true,
+      "time_seconds": 6.42,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 8681750,
+      "mp3_bytes": 717828
+    },
+    {
+      "index": 20,
+      "url": "https://www.instagram.com/reel/Den4J3kTZrC/",
+      "shortcode": "Den4J3kTZrC",
+      "success": true,
+      "time_seconds": 9.3,
+      "title": "Video by recode_mind_",
+      "duration": null,
+      "mp4_bytes": 22864766,
+      "mp3_bytes": 1357401
+    }
+  ]
+}
