@@ -1,0 +1,66 @@
+{
+  "project_id": "ketabyar_summary_illusion",
+  "language": "fa",
+  "beats": [
+    {
+      "id": "hook",
+      "start_sec": 0,
+      "end_sec": 10,
+      "mood": "curious",
+      "energy": 2,
+      "keywords": [
+        "mystery",
+        "piano",
+        "minimal"
+      ]
+    },
+    {
+      "id": "reveal",
+      "start_sec": 10,
+      "end_sec": 20,
+      "mood": "tense",
+      "energy": 3,
+      "keywords": [
+        "suspense",
+        "ambient",
+        "dark"
+      ]
+    },
+    {
+      "id": "puzzle",
+      "start_sec": 20,
+      "end_sec": 35,
+      "mood": "reflective",
+      "energy": 2,
+      "keywords": [
+        "puzzle",
+        "thinking",
+        "gentle"
+      ]
+    },
+    {
+      "id": "progress",
+      "start_sec": 35,
+      "end_sec": 55,
+      "mood": "hopeful",
+      "energy": 3,
+      "keywords": [
+        "warm",
+        "hopeful",
+        "subtle"
+      ]
+    },
+    {
+      "id": "resolution",
+      "start_sec": 55,
+      "end_sec": 60.75,
+      "mood": "calm",
+      "energy": 2,
+      "keywords": [
+        "resolution",
+        "soft",
+        "piano"
+      ]
+    }
+  ]
+}
