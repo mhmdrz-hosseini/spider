@@ -6,7 +6,7 @@ Dr. Justin Sung Channel — Batch Offline Whisper Transcriber (10 Videos)
 3. Produces timestamped segment JSONs (_transcript.json) and formatted readable transcripts (_transcript.txt).
 4. Mirrors all audio and transcript artifacts to:
    - `downloaded video/justinsung/`
-   - `b2c-content-gtm-system/b2c-content-gtm-system/projects/P-03_ketabyar/research/justinsung/`
+   - `b2c-content-gtm-system/b2c-content-gtm-system/projects/P-03_fahva/research/justinsung/`
 5. Outputs a full transcription benchmark report (speedup, words count, duration).
 """
 
@@ -27,7 +27,7 @@ if hasattr(sys.stderr, "reconfigure"):
 
 WORKSPACE = Path(r"D:\code\SPIDER")
 DOWNLOADS_DIR = WORKSPACE / "downloaded video" / "justinsung"
-RESEARCH_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_ketabyar" / "research" / "justinsung"
+RESEARCH_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_fahva" / "research" / "justinsung"
 
 # Ordered list of latest 10 videos
 LATEST_10_IDS = [

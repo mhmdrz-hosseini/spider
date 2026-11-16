@@ -10,7 +10,7 @@ Artifacts:
 - _transcript.json & _transcript.txt
 - Mirrors to:
     1. `downloaded video/justinsung/`
-    2. `b2c-content-gtm-system/b2c-content-gtm-system/projects/P-03_ketabyar/research/justinsung/`
+    2. `b2c-content-gtm-system/b2c-content-gtm-system/projects/P-03_fahva/research/justinsung/`
 """
 
 import os
@@ -31,7 +31,7 @@ PROXY = "socks5h://127.0.0.1:10808"
 
 DEST_DIRS = [
     WORKSPACE / "downloaded video" / "justinsung",
-    WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_ketabyar" / "research" / "justinsung"
+    WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_fahva" / "research" / "justinsung"
 ]
 
 LATEST_10_VIDEOS = [

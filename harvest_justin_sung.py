@@ -2,7 +2,7 @@
 Dr. Justin Sung Study Reference Harvester & Knowledge Extractor
 ==============================================================
 Harvests Dr. Justin Sung's deep-learning research videos, transcripts,
-and visual pedagogical diagrams to power KetabYar (P-03_ketabyar).
+and visual pedagogical diagrams to power Fahva (P-03_fahva).
 
 Workflow:
 1. Queries curated Justin Sung videos (Cognitive Load, Mind Mapping, Rote Learning, Feynman).
@@ -10,9 +10,9 @@ Workflow:
 3. Extracts clean timestamped transcript JSONs.
 4. Mirrors assets to:
    - `downloaded video/justinsung/`
-   - `projects/P-03_ketabyar/research/justinsung/`
+   - `projects/P-03_fahva/research/justinsung/`
 5. Compiles `justin_sung_pedagogy_matrix.md` linking Justin Sung principles
-   directly to KetabYar's 5 Sprint-01 scripts and product features.
+   directly to Fahva's 5 Sprint-01 scripts and product features.
 """
 
 import os
@@ -28,49 +28,49 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 WORKSPACE = Path(r"D:\code\SPIDER")
-PROJECT_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_ketabyar"
+PROJECT_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_fahva"
 RESEARCH_DIR = PROJECT_DIR / "research" / "justinsung"
 MIRROR_DIR = WORKSPACE / "downloaded video" / "justinsung"
 COOKIES_PATH = WORKSPACE / "cookies.txt"
 PROXY = "socks5h://127.0.0.1:10808"
 
-# Curated high-impact study videos from Dr. Justin Sung for KetabYar
+# Curated high-impact study videos from Dr. Justin Sung for Fahva
 CURATED_JUSTIN_SUNG_VIDEOS = [
     {
         "id": "-gqYldhjZVk",
         "title": "How to memorise (almost) anything you read in 20 minutes",
         "topic": "The 20-minute reading trap vs. structural encoding",
-        "ketabyar_mapping": "CNT-001 (Summary Delusion)"
+        "fahva_mapping": "CNT-001 (Summary Delusion)"
     },
     {
         "id": "umVX5wK6OZc",
         "title": "Why Critical Thinking Is Disappearing - The Rise of Effortless Education",
         "topic": "Effortless consumption, superficial cheat sheets, and cognitive atrophy",
-        "ketabyar_mapping": "CNT-001 & Product Brief (Beachhead Problem)"
+        "fahva_mapping": "CNT-001 & Product Brief (Beachhead Problem)"
     },
     {
         "id": "rQHA7EYq8sw",
         "title": "The Hypothetical Structure Method - How to Think Like A Genius",
         "topic": "Non-linear structural mapping, 4-pillar conceptual geometry",
-        "ketabyar_mapping": "CNT-003 (Tarh-e Koli Geometry & Mind Maps)"
+        "fahva_mapping": "CNT-003 (Tarh-e Koli Geometry & Mind Maps)"
     },
     {
         "id": "nIABz0Z4IRA",
         "title": "How to Learn So Fast People Assume You're Naturally Gifted",
         "topic": "Higher-order Bloom's taxonomy: analysis vs rote facts",
-        "ketabyar_mapping": "CNT-004 (The Debater's Freeze & Verbatim Proof)"
+        "fahva_mapping": "CNT-004 (The Debater's Freeze & Verbatim Proof)"
     },
     {
         "id": "CQQTwvDb5xg",
         "title": "My Exact 14-Step Guide To Learn Anything Faster",
         "topic": "Self-questioning, cognitive schema, and Feynman explanation loops",
-        "ketabyar_mapping": "CNT-005 (The Feynman Protocol for Dense Texts)"
+        "fahva_mapping": "CNT-005 (The Feynman Protocol for Dense Texts)"
     },
     {
         "id": "0Jpx6eNfpoo",
         "title": "In 32 Minutes, You'll Actually Understand Procrastination (and how to cure it)",
         "topic": "Cognitive friction, task aversion in heavy texts",
-        "ketabyar_mapping": "Study Companion UX & Retention Funnels"
+        "fahva_mapping": "Study Companion UX & Retention Funnels"
     }
 ]
 
@@ -90,7 +90,7 @@ def download_video_and_transcript(v_meta: dict) -> bool:
     transcript_target = RESEARCH_DIR / f"{vid_id}_transcript.json"
 
     print(f"\n[JustinSung] [{vid_id}] {title}")
-    print(f"  -> KetabYar Target: {v_meta['ketabyar_mapping']}")
+    print(f"  -> Fahva Target: {v_meta['fahva_mapping']}")
 
     # If already cached
     if transcript_target.exists():
@@ -149,7 +149,7 @@ def download_video_and_transcript(v_meta: dict) -> bool:
                         "video_id": vid_id,
                         "title": title,
                         "topic": v_meta["topic"],
-                        "ketabyar_mapping": v_meta["ketabyar_mapping"],
+                        "fahva_mapping": v_meta["fahva_mapping"],
                         "full_text": complete_text,
                         "segments": segments
                     }, f, indent=2, ensure_ascii=False)
@@ -168,16 +168,16 @@ def download_video_and_transcript(v_meta: dict) -> bool:
 
 def compile_pedagogy_matrix():
     matrix_file = PROJECT_DIR / "research" / "justin_sung_pedagogy_matrix.md"
-    content = """# Dr. Justin Sung Pedagogical Reference Matrix — KetabYar (P-03_ketabyar)
+    content = """# Dr. Justin Sung Pedagogical Reference Matrix — Fahva (P-03_fahva)
 
 > **Authority Source:** Dr. Justin Sung (`@JustinSung` / iCanStudy)
-> **Purpose:** Ground KetabYar's product mechanics, motion-comic scripts, and interactive study companion in evidence-based cognitive psychology and deep learning science.
+> **Purpose:** Ground Fahva's product mechanics, motion-comic scripts, and interactive study companion in evidence-based cognitive psychology and deep learning science.
 
 ---
 
-## 1. Core Learning Frameworks & KetabYar Alignment
+## 1. Core Learning Frameworks & Fahva Alignment
 
-| Justin Sung Cognitive Principle | The Flaw in Conventional Study | KetabYar Product Solution | KetabYar Motion Comic Script |
+| Justin Sung Cognitive Principle | The Flaw in Conventional Study | Fahva Product Solution | Fahva Motion Comic Script |
 |---|---|---|---|
 | **Non-Linear Cognitive Schema** | Linear reading & note-taking treats knowledge as isolated sequential facts, causing catastrophic forgetting. | **Interactive Mental Map & Concept Graph:** Dynamic visualization linking themes, core doctrines, and arguments across the whole book. | **`CNT-003` (هندسه طرح کلی)**: Deconstructing the 4 pillars (Iman, Tawhid, Nubuwwat, Wilayat) as an interlocking gear system. |
 | **The Illusion of Competence** | Passive re-reading, 15-minute book summaries, and audio cheat-sheets create familiarity without neural encoding. | **Authentic Text Interrogation:** Reader engages directly with authentic scanned PDF pages, breaking the passive summary habit. | **`CNT-001` (توهم دانایی)**: Exposing why 50 book summaries leave the mind powerless during a serious debate. |
@@ -189,7 +189,7 @@ def compile_pedagogy_matrix():
 
 ## 2. Visual Storytelling & Asset Extraction Guidelines
 
-1. **Mind Map HUD Overlays:** Use Justin Sung's radial and non-linear concept tree layouts as visual blueprints for KetabYar's Parchment Gold (`#E5A93C`) HUD overlays.
+1. **Mind Map HUD Overlays:** Use Justin Sung's radial and non-linear concept tree layouts as visual blueprints for Fahva's Parchment Gold (`#E5A93C`) HUD overlays.
 2. **Cognitive Load Contrasts:** Split-screen comparison between chaotic highlighted notes (red warning `#D62828`) vs. structured relational blueprints (cyanotype `#0D1B2A` & gold `#E5A93C`).
 3. **Pacing:** Pair calm, intellectual Socratic narration (`fa-IR-FaridNeural`) with 2.5D camera drift over authentic manuscript pages.
 """

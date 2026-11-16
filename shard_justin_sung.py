@@ -1,8 +1,8 @@
 """
-SPIDER Studio: Justin Sung Cognitive Sharding Engine for KetabYar (P-03)
+SPIDER Studio: Justin Sung Cognitive Sharding Engine for Fahva (P-03)
 -------------------------------------------------------------------------
 Deconstructs all 10 Dr. Justin Sung cognitive science masterclasses into
-25 high-retention, 45-second content shards mapped directly to KetabYar's
+25 high-retention, 45-second content shards mapped directly to Fahva's
 pillars (PIL-01..PIL-04) and 3-Ring territory architecture.
 
 Adapts Dr. Sung's research on:
@@ -23,9 +23,9 @@ if hasattr(sys.stderr, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 WORKSPACE = Path(__file__).resolve().parents[1]
-RESEARCH_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_ketabyar" / "research" / "justinsung"
+RESEARCH_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_fahva" / "research" / "justinsung"
 DOWNLOADS_DIR = WORKSPACE / "downloaded video" / "justinsung"
-CONTEXT_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_ketabyar" / "context"
+CONTEXT_DIR = WORKSPACE / "b2c-content-gtm-system" / "b2c-content-gtm-system" / "projects" / "P-03_fahva" / "context"
 
 ALL_25_SHARDS = [
     # =========================================================================
@@ -450,7 +450,7 @@ ALL_25_SHARDS = [
 
 def main():
     print(f"======================================================================")
-    print(f"SPIDER Studio: Justin Sung Cognitive Shards Compiler for KetabYar")
+    print(f"SPIDER Studio: Justin Sung Cognitive Shards Compiler for Fahva")
     print(f"======================================================================")
     print(f"Total Shards Engineered: {len(ALL_25_SHARDS)}")
     
@@ -471,7 +471,7 @@ def main():
     # 3. Compile Shards Matrix Markdown
     out_md = RESEARCH_DIR / "justin_sung_shards_matrix.md"
     with open(out_md, "w", encoding="utf-8") as f:
-        f.write("# Dr. Justin Sung Cognitive Sharding Matrix — KetabYar (P-03)\n\n")
+        f.write("# Dr. Justin Sung Cognitive Sharding Matrix — Fahva (P-03)\n\n")
         f.write("> **System:** SPIDER Content GTM Engine | **Corpus:** 10 Videos (~180 mins, 33,989 words) -> 25 Atomic 45s Shards\n\n")
         f.write("| Shard ID | Ring | Pillar | Topic / Hook | Dr. Justin Sung Cognitive Grounding | Target Book Tie-In |\n")
         f.write("|:---|:---|:---|:---|:---|:---|\n")
